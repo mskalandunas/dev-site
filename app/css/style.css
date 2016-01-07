@@ -1,0 +1,38 @@
+.social-github:hover,
+.social-github:focus,
+.social-github:active {
+  background-color: #333;
+}
+
+.social-instagram:hover,
+.social-instagram:focus,
+.social-instagram:active {
+  background-color: #125688;
+}
+
+.social-linkedin:hover,
+.social-linkedin:focus,
+.social-linkedin:active {
+  background-color: #287bbc;
+}
+
+.social-medium:hover,
+.social-medium:focus,
+.social-medium:active {
+  background-color: #00ab6b;
+}
+
+.social-twitter:hover,
+.social-twitter:focus,
+.social-twitter:active {
+  background-color: #55acee;
+}
+
+.team-member img {
+  max-width: 225;
+  max-height: 225;
+}
+
+section #contact {
+  background-image: url(../img/5.jpg);
+}

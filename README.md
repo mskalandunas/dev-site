@@ -1,4 +1,5 @@
 ####To-do
-* Add portfolio items
 * Add contact
 * HTTPS
+
+####DO CONTACT.JS IN /APP AND CHANGE INDEX AS WELL

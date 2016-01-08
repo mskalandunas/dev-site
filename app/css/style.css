@@ -37,6 +37,10 @@ section #contact {
   background-image: url(../img/5.jpg);
 }
 
-.navbar-brand .page-scroll {
-  color: rgba(254, 209, 54, 0);
+.navbar-brand {
+  opacity: 0;
+}
+
+.navbar-shrink .navbar-brand {
+  opacity: 1;
 }

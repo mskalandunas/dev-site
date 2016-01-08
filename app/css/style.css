@@ -1,5 +1,20 @@
+a {
+  color: #ff5050;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
 section #contact {
   background-image: url(../img/5.jpg);
+}
+
+.fa-stack .fa-lg {
+  margin: 15px 0;
 }
 
 .social-github:hover,
@@ -53,4 +68,13 @@ section #contact {
 
 #portfolio {
   background-color: #6C7680;
+}
+
+#about h2,
+#skills h2 {
+  color: #FFA542;
+}
+
+#page-down-arrow {
+  color: #fff;
 }

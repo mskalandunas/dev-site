@@ -1,5 +1,3 @@
-####To-do
-* Add contact
-* HTTPS
+####mikeskalandunas.com
 
-####DO CONTACT.JS IN /APP AND CHANGE INDEX AS WELL
+My developer website.

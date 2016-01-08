@@ -4,3 +4,4 @@
 * find hi-res images online for header and contact
 * clean up about
 * link decoration
+* Lighten color of text

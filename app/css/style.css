@@ -47,6 +47,10 @@ section #contact {
   background-color: #55acee;
 }
 
+.light-link {
+  color: #FFA542;
+}
+
 .team-member img {
   max-width: 225;
   max-height: 225;

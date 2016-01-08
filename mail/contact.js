@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 var nodemailer = require('nodemailer');
 
-var contactRouter = modules.exports = exports = express.Router();
+var contactRouter = module.exports = exports = express.Router();
 
 var transporter = nodemailer.createTransport({
   service: 'Gmail',

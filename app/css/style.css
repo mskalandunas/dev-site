@@ -1,3 +1,7 @@
+section #contact {
+  background-image: url(../img/5.jpg);
+}
+
 .social-github:hover,
 .social-github:focus,
 .social-github:active {
@@ -33,14 +37,19 @@
   max-height: 225;
 }
 
-section #contact {
-  background-image: url(../img/5.jpg);
-}
-
 .navbar-brand {
   opacity: 0;
 }
 
 .navbar-shrink .navbar-brand {
   opacity: 1;
+}
+
+#skills,
+#about {
+  background-color: #434650;
+}
+
+#portfolio {
+  background-color: #6C7680;
 }

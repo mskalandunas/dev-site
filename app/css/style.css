@@ -62,6 +62,10 @@ a:active {
   color: #ff5050;
 }
 
+.sub-link {
+  padding-top: 10px;
+}
+
 #skills,
 #about {
   background-color: #434650;

@@ -56,7 +56,7 @@ body {
 }
 
 body {
-  background-image: url('../img/seattle.jpg');
+  background-image: url('../img/bg.jpg');
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -93,16 +93,40 @@ a:active {
   color: #4078c0;
 }
 
+.instagram:hover,
+.instagram:focus,
+.instagram:active {
+  color: #125688;
+}
+
 .linkedin:hover,
 .linkedin:focus,
 .linkedin:active {
   color: #287bbc;
 }
 
+.medium:hover,
+.medium:focus,
+.medium:active {
+  color: #00ab6b;
+}
+
 .mosaic:hover,
 .mosaic:focus,
 .mosaic:active {
   color: #ff1a1a;
+}
+
+.soundcloud:hover,
+.soundcloud:focus,
+.soundcloud:active {
+  color: #f50;
+}
+
+.twitter:hover,
+.twitter:focus,
+.twitter:active {
+  color: #00aced;
 }
 
 h1 {
@@ -165,7 +189,7 @@ main ul li {
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 2px;
   }
 
@@ -181,4 +205,23 @@ main ul li {
   .word .third {
     letter-spacing: 3px;
   }
+}
+
+/***************************************/
+
+footer {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0px;
+  letter-spacing: 0.09em;
+  position: absolute;
+  bottom: 0;
+}
+
+footer ul li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }

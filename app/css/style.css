@@ -1,94 +1,184 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/***************************************/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url('../img/seattle.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+main {
+  width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 a {
-  color: #ff5050;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
 }
 
 a:hover,
 a:focus,
 a:active {
+  color: #434650;
+}
+
+.github:hover,
+.github:focus,
+.github:active {
+  color: #4078c0;
+}
+
+.linkedin:hover,
+.linkedin:focus,
+.linkedin:active {
+  color: #287bbc;
+}
+
+.mosaic:hover,
+.mosaic:focus,
+.mosaic:active {
+  color: #ff1a1a;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  margin-bottom: 3rem;
+}
+
+main ul {
+  width: 100%;
+}
+
+main ul a {
   color: #fff;
   text-decoration: none;
 }
 
-.fa-stack .fa-lg {
-  margin-top: 30px;
+main ul li {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.social-github:hover,
-.social-github:focus,
-.social-github:active {
-  background-color: #333;
+.overlay {
+  background-color: #1A1B23;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
 }
 
-.social-instagram:hover,
-.social-instagram:focus,
-.social-instagram:active {
-  background-color: #125688;
-}
+@media screen and (max-width: 645px) {
+  main {
+    padding: 0 3% 0 3%;
+    width: 100%;
+  }
 
-.social-linkedin:hover,
-.social-linkedin:focus,
-.social-linkedin:active {
-  background-color: #287bbc;
-}
+  main ul li {
+    width: 50%;
+  }
 
-.social-medium:hover,
-.social-medium:focus,
-.social-medium:active {
-  background-color: #00ab6b;
-}
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: .5rem;
+  }
 
-.social-twitter:hover,
-.social-twitter:focus,
-.social-twitter:active {
-  background-color: #55acee;
-}
+  h3 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
 
-.light-link {
-  color: #FFA542;
-}
+  .word {
+    display: block;
+    text-
+  }
 
-.team-member img {
-  max-width: 225;
-  max-height: 225;
-  border: 3px solid #fff;
-}
+  .word .first {
+    letter-spacing: 4px;
+  }
 
-.navbar-brand {
-  opacity: 0;
-}
-
-.navbar-shrink .navbar-brand {
-  opacity: 1;
-  color: #ff5050;
-}
-
-.sub-link {
-  padding-top: 10px;
-}
-
-#skills,
-#about {
-  background-color: #434650;
-}
-
-#about h2,
-#skills h2 {
-  color: #FFA542;
-}
-
-#about h4,
-#skills h4 {
-  color: #0A0505;
-}
-
-#portfolio {
-  background-color: #6C7680;
-}
-
-#portfolio-subheading {
-  color: #333;
-}
-
-#page-down-arrow {
-  color: #fff;
+  .word .third {
+    letter-spacing: 3px;
+  }
 }

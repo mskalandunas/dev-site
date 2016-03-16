@@ -172,6 +172,13 @@ main ul li {
   opacity: .8;
 }
 
+.highlight {
+  color: #80e5ff;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
 @media screen and (max-width: 645px) {
   main {
     padding: 0 3% 0 3%;
@@ -183,7 +190,7 @@ main ul li {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     margin-bottom: .5rem;
   }

@@ -113,7 +113,10 @@ a:active {
 
 .mosaic:hover,
 .mosaic:focus,
-.mosaic:active {
+.mosaic:active,
+.mosaic:hover > .highlight,
+.mosaic:focus > .highlight,
+.mosaic:active > .highlight {
   color: #ff1a1a;
 }
 

@@ -84,7 +84,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #434650;
+  color: #4078c0;
 }
 
 .github:hover,
@@ -99,12 +99,6 @@ a:active {
   color: #125688;
 }
 
-.linkedin:hover,
-.linkedin:focus,
-.linkedin:active {
-  color: #287bbc;
-}
-
 .medium:hover,
 .medium:focus,
 .medium:active {
@@ -117,7 +111,7 @@ a:active {
 .mosaic:hover > .highlight,
 .mosaic:focus > .highlight,
 .mosaic:active > .highlight {
-  color: #ff1a1a;
+  color: #80e5ff;
 }
 
 .soundcloud:hover,

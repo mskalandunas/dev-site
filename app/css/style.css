@@ -105,12 +105,12 @@ a:active {
   color: #00ab6b;
 }
 
-.mosaic:hover,
-.mosaic:focus,
-.mosaic:active,
-.mosaic:hover > .highlight,
-.mosaic:focus > .highlight,
-.mosaic:active > .highlight {
+.header-link:hover,
+.header-link:focus,
+.header-link:active,
+.header-link:hover > .highlight,
+.header-link:focus > .highlight,
+.header-link:active > .highlight {
   color: #80e5ff;
 }
 

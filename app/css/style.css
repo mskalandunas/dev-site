@@ -18,7 +18,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -26,12 +26,15 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -39,6 +42,7 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -52,7 +56,8 @@ body {
   height: 100%;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
+  background-color: #f2f2f2;
+  color: #36454f;
 }
 
 body {
@@ -74,10 +79,13 @@ main {
 
 a {
   text-decoration: none;
-  color: #fff;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
+}
+
+a, a:visited {
+  color: #36454f;
 }
 
 a:hover,
@@ -125,12 +133,21 @@ a:active {
   color: #00aced;
 }
 
-h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2.5rem;
+h1, h2 {
   letter-spacing: 1px;
   margin-bottom: 1rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+  letter-spacing: 5px;
 }
 
 h3 {
@@ -145,16 +162,15 @@ main ul {
 }
 
 main ul a {
-  color: #fff;
   text-decoration: none;
 }
 
 main ul li {
   display: inline-block;
-  width: 25%;
-  float: left;
+  width: 8%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-size: 1.2rem;
 }
 
 .overlay {
@@ -182,7 +198,7 @@ main ul li {
   }
 
   main ul li {
-    width: 50%;
+    width: 10%;
   }
 
   h1 {
@@ -195,36 +211,4 @@ main ul li {
     font-size: 1rem;
     letter-spacing: 2px;
   }
-
-  .word {
-    display: block;
-    text-
-  }
-
-  .word .first {
-    letter-spacing: 4px;
-  }
-
-  .word .third {
-    letter-spacing: 3px;
-  }
-}
-
-/***************************************/
-
-footer {
-  width: 100%;
-  font-size: 16px;
-  text-align: center;
-  padding: 20px 0px;
-  letter-spacing: 0.09em;
-  position: absolute;
-  bottom: 0;
-}
-
-footer ul li {
-  display: inline;
-  list-style-type: none;
-  padding-left: 10px;
-  padding-right: 10px;
 }

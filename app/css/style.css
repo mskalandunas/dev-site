@@ -173,6 +173,10 @@ main ul li {
   font-size: 1.2rem;
 }
 
+a .npm:hover {
+  fill: blue;
+}
+
 .overlay {
   background-color: #1A1B23;
   position: absolute;

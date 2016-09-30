@@ -148,6 +148,8 @@ h2 {
   font-size: 1.5rem;
   margin-bottom: 0.2rem;
   letter-spacing: 5px;
+  font-family: 'Lora', serif;
+  color: #0e8eaf;
 }
 
 h3 {
@@ -173,9 +175,13 @@ main ul li {
   font-size: 1.2rem;
 }
 
-a .npm:hover {
+polygon:hover {
   fill: blue;
 }
+
+/*a .npm:hover {
+  fill: blue;
+}*/
 
 .overlay {
   background-color: #1A1B23;

@@ -192,6 +192,12 @@ main ul li {
   opacity: .8;
 }
 
+.subtitle {
+  background: -webkit-linear-gradient(bottom right, #DD5E89, #F7BB97);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .highlight {
   color: #80e5ff;
   -webkit-transition: all .3s;

@@ -112,6 +112,12 @@ a:active {
   color: #00ab6b;
 }
 
+.mosaic:hover,
+.mosaic:focus,
+.mosaic:active {
+  color: #00ab6b;
+}
+
 .header-link:hover,
 .header-link:focus,
 .header-link:active,

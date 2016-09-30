@@ -215,6 +215,11 @@ main ul li {
     margin-bottom: .5rem;
   }
 
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: -0.3rem;
+  }
+
   h3 {
     font-size: 1rem;
     letter-spacing: 2px;

@@ -77,7 +77,7 @@ main {
   transform: translate(-50%, -50%);
 }
 
-a {
+a, svg {
   text-decoration: none;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -131,6 +131,12 @@ a:active {
 .twitter:focus,
 .twitter:active {
   color: #00aced;
+}
+
+li a #npm-highlight:hover,
+li a #npm-highlight:focus,
+li a #npm-highlight:active {
+  fill: #cb3837;
 }
 
 h1, h2 {

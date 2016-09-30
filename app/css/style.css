@@ -56,8 +56,11 @@ body {
   height: 100%;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  background-color: #f2f2f2;
   color: #36454f;
+  background: #757F9A;
+  background: -webkit-linear-gradient(to left, #757F9A , #D7DDE8);
+  background: linear-gradient(to left, #757F9A , #D7DDE8);
+
 }
 
 body {
@@ -162,7 +165,6 @@ h2 {
   margin-bottom: 0.2rem;
   letter-spacing: 5px;
   font-family: 'Lora', serif;
-  color: #116175;
 }
 
 main ul {
@@ -179,30 +181,6 @@ main ul li {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1.2rem;
-}
-
-.overlay {
-  background-color: #1A1B23;
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .8;
-}
-
-.subtitle {
-  background: -webkit-linear-gradient(bottom right, #DD5E89, #F7BB97);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.highlight {
-  color: #80e5ff;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
 }
 
 @media screen and (max-width: 645px) {

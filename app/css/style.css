@@ -136,6 +136,7 @@ a:active {
 h1, h2 {
   letter-spacing: 1px;
   margin-bottom: 1rem;
+  cursor: default;
 }
 
 h1 {
@@ -149,14 +150,7 @@ h2 {
   margin-bottom: 0.2rem;
   letter-spacing: 5px;
   font-family: 'Lora', serif;
-  color: #0e8eaf;
-}
-
-h3 {
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: 3px;
-  margin-bottom: 3rem;
+  color: #116175;
 }
 
 main ul {
@@ -174,14 +168,6 @@ main ul li {
   padding-bottom: 1rem;
   font-size: 1.2rem;
 }
-
-polygon:hover {
-  fill: blue;
-}
-
-/*a .npm:hover {
-  fill: blue;
-}*/
 
 .overlay {
   background-color: #1A1B23;

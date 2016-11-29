@@ -54,9 +54,10 @@ pre {
   width: 100%;
 }
 
-p {
+p.content {
   font-weight: 300;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  text-align: justify;
 }
 
 code {

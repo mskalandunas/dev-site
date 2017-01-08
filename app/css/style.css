@@ -58,6 +58,8 @@ p.content {
   font-weight: 300;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 code {
@@ -230,11 +232,11 @@ section:nth-child(2n) {
   }
 
   #heading {
-    margin-top: -75px;
+    margin-top: -150px;
   }
 
   #logo {
-    font-size: 75px;
+    font-size: 100px;
   }
 
   #tagline {

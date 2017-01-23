@@ -146,18 +146,19 @@ h3.title {
   font-size: 16px;
   letter-spacing: .1em;
   font-family: 'Arapey', sans-serif;
-  color: #fff;
+  color: #797979;
 }
 
 #top {
-  height: 90%;
+  min-height: 90%;
+  padding-bottom: 150px;
 }
 
 #heading {
   -webkit-user-select: none;
   text-align: center;
   width: 100%;
-  padding-top: 175px;
+  padding-top: 30vh;
 }
 
 #logo {

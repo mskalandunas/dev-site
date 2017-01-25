@@ -37,7 +37,6 @@ section {
 
 section:not(#top) {
   padding: 175px 100px 75px;
-  text-align: center;
 }
 
 .content img {
@@ -74,7 +73,7 @@ p {
   background-position: 0% 100%;
 }
 
-.content h3 a:hover {
+.content h3 a:hover, .content h3 a.active {
   background-position: 0% 0%;
   color: #fff;
 }
@@ -125,6 +124,10 @@ p {
   color: #00aced;
 }
 
+.hidden {
+  display: none;
+}
+
 .padding {
   margin-top: 20px;
 }
@@ -132,6 +135,15 @@ p {
 .project-container {
   background-color: #e6e6e6;
   padding-bottom: 0;
+}
+
+.project-description {
+  max-width: 400px;
+  color: #696969;
+}
+
+.project-description a {
+  text-align: left;
 }
 
 .social-container span:not(:first-child) {
@@ -147,7 +159,7 @@ h3.title {
   font-size: 16px;
   letter-spacing: .1em;
   font-family: 'Arapey', sans-serif;
-  color: #bbb3b3;
+  color: #43b9c1;
 }
 
 #top {

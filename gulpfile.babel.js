@@ -24,7 +24,7 @@ gulp.task('static:dev', () => {
 });
 
 gulp.task('webpack:dev', () => {
-  return gulp.src('src/js/entry.js')
+  return gulp.src('src/js/app.js')
   .pipe(webpack({
     output: {
       filename: 'bundle.js'

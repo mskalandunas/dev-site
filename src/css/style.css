@@ -19,15 +19,19 @@ body {
   text-shadow: 1px 1px 1px rgba(0,0,0,.004);
 }
 
-a, .project-link {
+a {
   color: #333;
   text-decoration: none;
   transition: 0.3s ease;
   cursor: pointer;
 }
 
+a.project-link {
+  color: #fff;
+}
+
 a.project-link:hover {
-  color: #615f5f;
+  color: #696969f;
 }
 
 img {
@@ -73,7 +77,7 @@ p {
 
 .content h3 a {
   background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #333 50%, #e6e6e6 50%);
+  background-image: linear-gradient(to bottom, #333 50%, #616161 50%);
   background-position: 0% 100%;
 }
 
@@ -137,13 +141,13 @@ p {
 }
 
 .project-container {
-  background-color: #e6e6e6;
+  background-color: #616161;
   padding-bottom: 0;
 }
 
 .project-description {
   max-width: 400px;
-  color: #696969;
+  color: #333;
   overflow: hidden;
 }
 
@@ -160,11 +164,13 @@ p {
   max-width: 750px;
 }
 
-h3.title {
+h3.title span {
   font-size: 16px;
   letter-spacing: .1em;
   font-family: 'Arapey', sans-serif;
-  color: #43b9c1;
+  background: -webkit-linear-gradient(bottom right,#ff5f6d,#ffc371);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 #top {

@@ -19,11 +19,15 @@ body {
   text-shadow: 1px 1px 1px rgba(0,0,0,.004);
 }
 
-a {
+a, .project-link {
   color: #333;
   text-decoration: none;
   transition: 0.3s ease;
   cursor: pointer;
+}
+
+a.project-link:hover {
+  color: #615f5f;
 }
 
 img {
@@ -125,7 +129,7 @@ p {
 }
 
 .hidden {
-  display: none;
+  max-height: 0;
 }
 
 .padding {
@@ -140,6 +144,7 @@ p {
 .project-description {
   max-width: 400px;
   color: #696969;
+  overflow: hidden;
 }
 
 .project-description a {

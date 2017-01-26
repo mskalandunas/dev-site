@@ -17,6 +17,7 @@ function toggleActive(e) {
     if (active[i] && i !== project) {
       let a = document.querySelector(`a[data-project="${i}"]`);
       let b = document.querySelector(`div[data-description=${i}]`);
+
       a.classList.toggle('active');
       b.classList.toggle('hidden');
       active[i] = false;

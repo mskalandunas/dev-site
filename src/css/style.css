@@ -47,12 +47,8 @@ svg g:hover {
   fill: #ffc371;
 }
 
-section {
-  min-height: 50%;
-}
-
 section:not(#top) {
-  padding: 175px 100px 75px;
+  padding: 50px 100px 75px;
 }
 
 .content img {
@@ -101,7 +97,7 @@ p {
 .copyright {
   text-align: center;
   font-size: 16px;
-  margin-top: 100px;
+  margin: 50px 0;
 }
 
 .copyright span:not(:first-child) {
@@ -196,8 +192,12 @@ h3.title span {
 }
 
 @media screen and (max-width: 700px) {
-  section, #top {
-    padding: 50px 10px;
+  section:not(#top) {
+    padding: 100px 50px;
+  }
+
+  #top {
+    padding: 150px 50px;
   }
 
   #logo {
@@ -212,8 +212,8 @@ h3.title span {
     font-size: 24px;
   }
 
-  h3.title {
-    font-size: 12px;
+  h3.title span {
+    font-size: 10px;
   }
 }
 

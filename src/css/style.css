@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-  font: 17px/1.5 'Roboto Mono';
+  font: 17px/1.5 'Gentium Book Basic';
   margin: 0;
   color: #33333d;
   overflow-y: scroll;
@@ -69,8 +69,9 @@ p {
 }
 
 p.content {
-  max-width: 280px;
+  max-width: 287px;
   letter-spacing: 0.02em;
+  line-height: 1.9em;
 }
 
 .content h3 {
@@ -107,6 +108,11 @@ p.content {
 
 .copyright span:not(:first-child) {
   margin-left: 20px;
+}
+
+.email {
+  font-family: 'Montserrat';
+  font-size: 14px;
 }
 
 .link, .email {
@@ -156,8 +162,9 @@ p.content {
 
 .project-description {
   max-width: 400px;
-  color: #333;
+  color: #d8d8d8;
   overflow: hidden;
+  font-family: 'Montserrat';
 }
 
 .project-description a {
@@ -176,7 +183,7 @@ p.content {
 h3.title span {
   font-size: 12px;
   letter-spacing: .2em;
-  font-family: 'Roboto Mono';
+  font-family: 'Gentium Book Basic';
   background: -webkit-linear-gradient(bottom right,#ff5f6d,#ffc371);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -194,7 +201,6 @@ h3.title span {
 #logo {
   font: 150px 'Arapey', sans-serif;
   text-transform: lowercase;
-  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 700px) {

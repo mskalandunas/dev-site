@@ -24,7 +24,7 @@ function toggleActive(e) {
     };
   };
 
-  active[project] = true;
+  !active[project] ? active[project] = true : active[project] = false;
   this.classList.toggle('active');
   current.classList.toggle('hidden');
 };

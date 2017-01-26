@@ -58,7 +58,7 @@ section:not(#top) {
 p {
   font-weight: 300;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
 }
 
@@ -66,6 +66,11 @@ p {
   margin: 0 auto;
   max-width: 750px;
   width: 100%;
+}
+
+p.content {
+  max-width: 280px;
+  letter-spacing: 0.02em;
 }
 
 .content h3 {
@@ -189,6 +194,7 @@ h3.title span {
 #logo {
   font: 150px 'Arapey', sans-serif;
   text-transform: lowercase;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 700px) {

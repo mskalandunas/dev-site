@@ -184,7 +184,7 @@ h3.title span {
   font-size: 12px;
   letter-spacing: .2em;
   font-family: 'Gentium Book Basic';
-  background: -webkit-linear-gradient(bottom right,#ff5f6d,#ffc371);
+  background: -webkit-linear-gradient(bottom right,#ffa15f,#ffc371);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }

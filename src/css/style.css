@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-  font: 17px/1.5 "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font: 17px/1.5 'Roboto Mono';
   margin: 0;
   color: #33333d;
   overflow-y: scroll;
@@ -27,16 +27,24 @@ a {
 }
 
 a.project-link {
-  color: #fff;
+  color: #ffc371;
 }
 
 a.project-link:hover {
-  color: #696969f;
+  color: #fb7985;
 }
 
-img {
+svg {
   width: 12px;
   padding-top: 1px;
+}
+
+svg g {
+  transition: 0.3s ease;
+}
+
+svg g:hover {
+  fill: #ffc371;
 }
 
 section {
@@ -53,7 +61,7 @@ section:not(#top) {
 
 p {
   font-weight: 300;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: inherit;
   font-size: 16px;
   text-align: justify;
 }
@@ -77,7 +85,7 @@ p {
 
 .content h3 a {
   background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #333 50%, #616161 50%);
+  background-image: linear-gradient(to bottom, #333 50%, #7d7d7d 50%);
   background-position: 0% 100%;
 }
 
@@ -101,11 +109,11 @@ p {
 }
 
 .link, .email {
-  color: #43b9c1;
+  color: #808080;
 }
 
 .link:hover {
-  color: #32888e;
+  color: #f94f5e;
 }
 
 .fa {
@@ -141,7 +149,7 @@ p {
 }
 
 .project-container {
-  background-color: #616161;
+  background-color: #7d7d7d;
   padding-bottom: 0;
 }
 
@@ -165,23 +173,21 @@ p {
 }
 
 h3.title span {
-  font-size: 16px;
-  letter-spacing: .1em;
-  font-family: 'Arapey', sans-serif;
+  font-size: 12px;
+  letter-spacing: .2em;
+  font-family: 'Roboto Mono';
   background: -webkit-linear-gradient(bottom right,#ff5f6d,#ffc371);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 #top {
-  min-height: 90%;
-  padding-bottom: 150px;
+  padding: 175px;
 }
 
 #heading {
   -webkit-user-select: none;
   text-align: center;
-  padding-top: 30vh;
 }
 
 #logo {
@@ -191,7 +197,7 @@ h3.title span {
 
 @media screen and (max-width: 700px) {
   section, #top {
-    padding: 50px 25px;
+    padding: 50px 10px;
   }
 
   #logo {
@@ -203,7 +209,7 @@ h3.title span {
   }
 
   .content h3 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   h3.title {

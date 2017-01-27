@@ -203,7 +203,7 @@ h3.title span {
 }
 
 #logo {
-  font: 150px 'Arapey', sans-serif;
+  font: 120px 'Montserrat', sans-serif;
   text-transform: lowercase;
 }
 
@@ -217,7 +217,7 @@ h3.title span {
   }
 
   #logo {
-    font-size: 125px;
+    font-size: 90px;
   }
 
   #tagline {

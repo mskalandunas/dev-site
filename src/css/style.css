@@ -24,6 +24,32 @@ a {
   text-decoration: none;
   transition: 0.3s ease;
   cursor: pointer;
+  position: relative;
+}
+
+a.lined:hover {
+  color: #333;
+}
+
+a.lined:after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 50%;
+  height: 3px;
+  background: #a2cef7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=(50));
+  opacity: 0.5;
+  content: "";
+  -moz-transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+a.lined:hover:after {
+  width: 99%;
 }
 
 a.project-link {

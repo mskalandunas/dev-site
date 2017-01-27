@@ -175,6 +175,12 @@ p.content {
   text-align: left;
 }
 
+.project-description p {
+  font-family: 'Gentium Book Basic', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.006em;
+}
+
 .social-container span:not(:first-child) {
   padding-left: 20px;
 }

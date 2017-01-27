@@ -237,6 +237,10 @@ h3.title span {
   h3.title span {
     font-size: 10px;
   }
+
+  .project-description p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 500px) {

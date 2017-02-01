@@ -69,7 +69,7 @@ svg g {
   transition: 0.3s ease;
 }
 
-svg g:hover {
+a.mosaic-icon:hover svg g {
   fill: #ffc371;
 }
 
@@ -165,8 +165,8 @@ p.content {
   color: #007bb6;
 }
 
-.fa-soundcloud:hover {
-  color: #ff3a00;
+.fa-medium:hover {
+  color: #02b875;
 }
 
 .fa-twitter:hover {

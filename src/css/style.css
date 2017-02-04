@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-  font: 17px/1.5 'Gentium Book Basic';
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
   color: #33333d;
   overflow-y: scroll;
@@ -84,7 +84,7 @@ section:not(#top) {
 p {
   font-weight: 300;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 13px;
   text-align: justify;
 }
 
@@ -190,7 +190,6 @@ p.content {
   max-width: 400px;
   color: #d8d8d8;
   overflow: hidden;
-  font-family: 'Montserrat';
   -webkit-transition-duration: 0.3s ease;
   -moz-transition-duration: 0.3s ease;
   -o-transition-duration: 0.3s ease;
@@ -202,8 +201,7 @@ p.content {
 }
 
 .project-description p {
-  font-family: 'Gentium Book Basic', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   letter-spacing: 0.006em;
   color: #fff;
 }

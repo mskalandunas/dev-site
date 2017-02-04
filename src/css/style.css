@@ -173,10 +173,6 @@ p.content {
   color: #00aced;
 }
 
-.hidden {
-  max-height: 0;
-}
-
 .padding {
   margin-top: 20px;
 }
@@ -190,10 +186,15 @@ p.content {
   max-width: 400px;
   color: #d8d8d8;
   overflow: hidden;
-  -webkit-transition-duration: 0.3s ease;
-  -moz-transition-duration: 0.3s ease;
-  -o-transition-duration: 0.3s ease;
-  transition-duration: 0.3s ease;
+  max-height: 400px;
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  -o-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+
+.project-description.hidden {
+  max-height: 0;
 }
 
 .project-description a {

@@ -4,7 +4,7 @@ const projects = [...document.querySelectorAll(`a[data-project]`)];
 const active   = {
   'redirect'     : false,
   'architect'    : false,
-  'mosaic-audio' : false,
+  'riverine' : false,
   'mosaicmusic'  : false
 };
 

@@ -34,12 +34,12 @@ gulp.task('webpack:dev', () => {
   .pipe(gulp.dest('public/js/'));
 });
 
-gulp.task('css:dev', () => {
-  return gulp.src(styleSheets)
-  .pipe(concatCss('main.css'))
-  .pipe(cssNano())
-  .pipe(gulp.dest(__dirname + '/public/css'));
-});
+// gulp.task('css:dev', () => {
+//   return gulp.src(styleSheets)
+//   .pipe(concatCss('main.css'))
+//   .pipe(cssNano())
+//   .pipe(gulp.dest(__dirname + '/public/css'));
+// });
 
 gulp.task('watch:build', () => {
   gulp.watch(staticFiles, ['static:dev']);
@@ -47,5 +47,5 @@ gulp.task('watch:build', () => {
   gulp.watch('src/**/*.js', ['webpack:dev']);
 });
 
-gulp.task('build', ['static:dev', 'webpack:dev', 'css:dev']);
+gulp.task('build', ['static:dev', 'webpack:dev']);
 gulp.task('default', ['build', 'watch:build']);

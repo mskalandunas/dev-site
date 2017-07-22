@@ -90,7 +90,7 @@ p {
 
 .content {
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 287px;
   width: 100%;
 }
 
@@ -102,7 +102,7 @@ p.content {
 
 .content h3 {
   text-align: left;
-  font-size: 56px;
+  font-size: 36px;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
